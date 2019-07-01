@@ -1,0 +1,17 @@
+{
+  "name": "cordova-plugin-editconfig",
+  "version": "1.0.0",
+  "description": "cordova-plugin-editconfig",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "cordova": {
+    "id": "cordova-plugin-adam-alipay",
+    "platforms": [
+      "android"
+      
+    ]
+  },
+  "author": "longting",
+  "license": "ISC"
+}

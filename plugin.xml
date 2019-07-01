@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-editconfig" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0"   xmlns:rim="http://www.blackberry.com/ns/widgets"xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>EditConfig</name>
+    <js-module name="EditConfig" src="www/EditConfig.js">
+        <clobbers target="cordova.plugins.EditConfig" />
+    </js-module>
+	<platform name="android">
+		<hook type="after_plugin_install" src="scripts/afterPluginInstall.js" />
+		<hook type="before_plugin_uninstall" src="scripts/beforePluginUninstall.js" />
+	</platform>
+</plugin>
